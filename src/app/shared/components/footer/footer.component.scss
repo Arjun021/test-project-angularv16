@@ -1,0 +1,30 @@
+.footer-container{
+  border-top: 0.125rem solid var(--shadow-white);
+  .footer-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    width: 76%;
+      margin: 0rem auto ;
+    .left-side{
+      display: flex;
+      align-items: center;
+      .contact{
+        display: flex;
+        align-items: center;
+        margin-right: 1.19rem;
+        .icon{
+          margin-right: 0.3125rem;
+          display: flex;
+        }
+      }
+    }
+    span{
+      font-size: 0.9375rem;
+      font-weight: 500;
+      line-height: 1.25rem;
+      letter-spacing: 0em;
+    }
+  }
+}

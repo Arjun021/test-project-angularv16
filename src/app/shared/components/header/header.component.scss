@@ -1,0 +1,77 @@
+.header-section {
+  background-color: var(--header-background);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.625rem;
+  .logo-section {
+    width: 13.75rem;
+    height: 3.8rem;
+    cursor: pointer;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .menu-list {
+    ul {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      li {
+        padding-right: 2.625rem;
+        &:last-child {
+          padding-right: 0;
+        }
+        &:hover {
+          .menu {
+            text-shadow: 0rem 0.25rem 0.25rem var(--text-shadow);
+          }
+        }
+        .menu {
+          color: #303030;
+          font-size: 1.0625rem;
+          font-family: "AvenirNext Medium";
+          line-height: 1.375rem;
+          text-decoration: none;
+          cursor: pointer;
+
+          &.active {
+            text-shadow: 0rem 0.25rem 0.25rem var(--text-shadow);
+            color: #306fd5;
+          }
+        }
+      }
+    }
+  }
+  .button-section {
+    display: flex;
+    align-items: center;
+    .header-button {
+      background-color: transparent;
+      border: 0.0625rem solid var(--black);
+      border: 0.0625rem solid var(--shadow-black);
+      // padding: 0.8rem 2.94rem;
+      min-width: 8.5625rem;
+      min-height: 3rem;
+      border-radius: 3rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-shadow: 0rem 0.25rem 0.25rem var(--text-shadow);
+      font-size: 1.0625rem;
+
+      img {
+        margin-left: 0.5rem;
+      }
+      &.icon-button {
+        background-color: var(--active-link);
+        border: var(--active-link);
+        color: var(--white);
+        margin-left: 0.625rem;
+        text-shadow: unset;
+      }
+    }
+  }
+}

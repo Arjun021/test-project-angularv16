@@ -1,0 +1,22 @@
+//variables css
+@use "./assets/theme/variables";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'AvenirNext Medium';
+}
+
+@font-face {
+  font-family: 'AvenirNext Bold';
+  src: url('./assets/fonts/Bold.otf') format('opentype');
+}
+@font-face {
+  font-family: 'AvenirNext Medium';
+  src: url('./assets/fonts/Medium.otf') format('opentype');
+}
+@font-face {
+  font-family: 'AvenirNext Regular';
+  src: url('./assets/fonts/Regular.otf') format('opentype');
+}
